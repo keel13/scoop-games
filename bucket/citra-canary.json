@@ -8,7 +8,7 @@
     },
     "url": "https://github.com/citra-emu/citra-canary/releases/download/canary-2621/citra-windows-msvc-20230916-ef4033f.7z",
     "hash": "9607b8917a4f6e118ae7194d9b9464ffe78e52620bb435cc77538884bccc9d0f",
-    "extract_dir": "canary-mingw",
+    "extract_dir": "canary",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\user\")) {",
         "   New-Item -Path \"$persist_dir\" -Name \"user\" -ItemType \"directory\" | Out-Null",
